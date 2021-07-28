@@ -39,9 +39,9 @@ Functionality:
 API setup:
   
   1. First make sure you in the command line you are in the working directory (e.g. REST_API_mood)
-  2. Create a virtual environment (e.g. python3 -m venv .venv)
+  2. Create a virtual environment if not already created(e.g. python3 -m venv .venv)
   2. Activate the virtual environment (e.g. source .venv/bin/activate)
-  3. Install the necessary packages "pip3 install flask" "pip3 install flask-sqlalchemy"
+  3. Install the necessary packages if not already installed "pip3 install flask" "pip3 install flask-sqlalchemy"
   4. Export "export FLASK_APP=[mood.py file location]" "export FLASK_ENV=development"
   5. Run Flask "flask run"
   6. The user should be able to POST, GET, and DELETE now
